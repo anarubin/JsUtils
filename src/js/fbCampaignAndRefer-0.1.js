@@ -66,7 +66,7 @@
     function getAndSaveInCookieRefer() {
         var domainCookie = getSubDomain();
         var paramRefer = 'partner';
-        var paramReferInCookie = 'referrer1';
+        var paramReferInCookie = 'referer1';
 
         var urlBrowser = window.location.toString();
         if (urlBrowser.indexOf(paramRefer + '=') === -1) {
